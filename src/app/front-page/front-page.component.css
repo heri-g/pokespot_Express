@@ -1,0 +1,97 @@
+/* Carousel */
+.fill {
+  height:100%;
+}
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+.carousel-inner{
+  height:100%;
+}
+.carousel .item {
+  min-height: 619px;
+}
+
+.carousel-caption {
+  top: 160px;
+}
+
+.first{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.second{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.third{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.fourth{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.fifth{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.sixth{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.seventh{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.eigth{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.ninth{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.tenth{
+  background: url('../assets/images/pokebanner.jpg') center no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.carousel-caption h3:first-child {
+  animation-delay: 1.1s;
+}
+.carousel-caption h3:nth-child(2) {
+  animation-delay: 1.8s;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 4em;
+  /*display: inline-block;*/
+}
+.banner-subtitle {
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 150%;
+  display: block !important;
+}
