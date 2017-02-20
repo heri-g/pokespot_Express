@@ -1,0 +1,86 @@
+:host {
+	width: 98%;
+	bottom: 0;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  z-index: 15;
+}
+.footer {
+  z-index: 15;
+  box-shadow: 0px 2px 29px -2px #000000;
+}
+
+.footer-links {
+  display: -webkit-flex; /* Safari */
+  display: inline-flex;
+  -webkit-flex-direction: row; /* Safari */
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.footer-link {
+  flex-grow: 1;
+  list-style: none;
+  border-left: 3px solid whitesmoke;
+  height: 100%;
+  flex-shrink: 0;
+  padding: .7em;
+}
+.footer-links:first-child {
+  padding-left: -.5em;
+}
+.footer-link > a {
+  color: gray;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.footer-link > a:hover {
+  color: #337ab7;
+}
+.active, a:hover {
+  color: #337ab7 !important;
+}
+.social-bar {
+  float: right;
+  width:   35%;
+  display: -webkit-flex; /* Safari */
+  display: inline-flex;
+  -webkit-flex-direction: row; /* Safari */
+  flex-direction: row;
+}
+.social-icons {
+  text-align: center;
+  border-left: 3px solid whitesmoke;
+  flex-grow: 1;
+	display: inline-block;
+  align-items: flex-start;
+
+}
+.social-icons > a > i {
+  font-size: 2em;
+  text-decoration: none;
+}
+.foursquare {
+  color: #ef4b78;
+}
+.foursquare:hover {
+  color: #bb365a;
+}
+.instagram {
+  color: orange;
+}
+.instagram:hover {
+  color: #e29405;
+}
+@media(max-width:768px) {
+  .footer-links {
+    display: none;
+  }
+  .social-bar {
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0px 2px 29px -2px #000000;
+  }
+}

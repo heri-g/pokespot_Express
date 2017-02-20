@@ -1,0 +1,48 @@
+.divider-space {
+  margin: 100px 0 80px 0;
+}
+
+.d1 {
+  margin: 0 0 80px 0;
+  padding-top: 100px;
+  box-shadow: 0px -5px 5px -4px #000000;
+}
+
+/*--------------- CONTACT ----------------*/
+
+.contact-form {
+  margin-bottom: 5px;
+}
+
+.form {
+  border: 1px solid;
+}
+
+.animated-buttons {
+  z-index: 5!important;
+}
+
+.bttn {
+  margin: 10px 0 15px 0;
+}
+
+i.big.icon {
+  line-height: .5;
+}
+
+.contact-button {
+  display: inherit !important;
+}
+
+.v-c{
+  word-spacing: 2.5px !important;
+}
+
+.social {
+  margin: 10px 0 0 0 !important;
+}
+
+a {
+  text-decoration: inherit !important;
+  color: inherit;
+}

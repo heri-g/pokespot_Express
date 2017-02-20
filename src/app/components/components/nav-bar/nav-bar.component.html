@@ -1,0 +1,27 @@
+<nav class="navbar-default nav-container">
+  <div class="container-fluid" id="nav-menu">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="unordered list icon"></i>
+      </button>
+      <a [routerLink]="['/front-page']"><img src="../assets/images/pokepics/pokespot_logo.png" alt="Logo" class="pop pull-left"></a>
+      <a class="navbar-brand header" [routerLink]="['/front-page']">THE POKÉSPOT</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a [routerLink]="['/poke-menu']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">MENU</a></li>
+        <li><a [routerLink]="['/catering']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">CATERING</a></li>
+        <li><a [routerLink]="['/locations']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">LOCATIONS</a></li>
+        <li><a [routerLink]="['/contact']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">CONTACT</a></li>
+        <li><a [routerLink]="['/jobs']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">CAREERS</a></li>
+        <li class="add-on-collapse"><a [routerLink]="['/faq']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Faqs</a></li>
+        <li class="add-on-collapse"><a [routerLink]="['/franchise']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Franchise</a></li>
+        <li class="add-on-collapse"><a [routerLink]="['/press']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Press</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

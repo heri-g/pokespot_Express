@@ -1,0 +1,59 @@
+#bottom-pic {
+  margin: 0 auto;
+  height: 100%;
+  background-image: url('../assets/images/pokepics/menu-items/chips+guac_3623.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-text {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+  z-index: 5;
+  color: white;
+  text-shadow: rgb(34, 34, 34) 2px 2px 2px;
+  border-width: 0px;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 4em;
+  /*display: inline-block;*/
+}
+.banner-subtitle {
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 150%;
+  display: block !important;
+}
+
+.aT{
+  animation-delay: .6s;
+}
+.aTS {
+  animation-delay: .9s;
+}
+.divider-space {
+  margin: 100px 0 80px 0;
+}
+
+i.blue.food.icon {
+  padding-right: 4px;
+}
+
+i.blue.shopping.basket.icon {
+  padding-left: 4px;
+}
+
+.d1 {
+  margin: 0 0 80px 0;
+  padding-top: 100px;
+  box-shadow: 0px -5px 5px -4px #000000;
+}
